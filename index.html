@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hear & Learn</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Listening Practice</h1>
+
+      <audio id="audio" src=""></audio>
+
+      <div class="progress-container">
+        <input type="range" id="progress-bar" value="0" step="1" />
+      </div>
+
+      <div class="dark-mode-toggle">
+        <button id="dark-mode-btn">🌙 Dark Mode</button>
+      </div>
+
+      <div class="controls">
+        <button id="prev">⏮️ Previous</button>
+        <button id="play">▶️ Play</button>
+        <button id="repeat">🔁 Repeat</button>
+        <button id="next">⏭️ Next</button>
+        <button id="toggle-script">📖 Show Script</button>
+      </div>
+
+      <div id="script" class="script hidden">
+        <p id="script-text"></p>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
