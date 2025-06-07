@@ -2,7 +2,7 @@
 
 export const tracks = [
   {
-    src: "audio/track1.mp3",
+    src: "track1.mp3",
     script: `
 Tony usually plays basketball after school with his friends.
 Bill spends a lot of time playing video games at home.
@@ -12,7 +12,7 @@ Laura is cooking a big meal for her family.
     `.trim(),
   },
   {
-    src: "audio/track2.mp3",
+    src: "track2.mp3",
     script: `
 Alice is riding her bike around the neighborhood — she loves doing that in the mornings.
 Joe’s sitting at home, reading a book. He says it’s really interesting.
@@ -22,7 +22,7 @@ Rachel’s out at the gym, lifting weights — she’s getting pretty strong the
     `.trim(),
   },
   {
-    src: "audio/track3.mp3",
+    src: "track3.mp3",
     script: `
 On Sunday, the Smiths are planning to visit the museum.
 On Monday, they’re going hiking in the mountains — they love spending time outdoors.
